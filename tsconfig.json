@@ -6,7 +6,9 @@
     "outDir": "dist",
     "resolveJsonModule": true,
     "noUnusedLocals": false,
-    "lib": ["DOM"]
+    "skipLibCheck": true,
+    "lib": ["DOM"],
+    "strict": true,
   },
-  "include": ["./src/**/*", "./config.ts"]
+  "include": ["./src/**/*", "config.ts"]
 }
